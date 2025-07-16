@@ -1,0 +1,16 @@
+scapy
+pandas
+numpy
+scikit-learn
+streamlit
+joblib
+matplotlib
+seaborn
+psutil
+Flask-Limiter
+plotly
+streamlit-option-menu
+streamlit-modal
+streamlit-extras
+streamlit-lottie
+requests 

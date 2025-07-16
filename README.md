@@ -47,7 +47,7 @@ The main dashboard provides an overview of anomaly statistics and recent alerts.
 
 ### Network Flow Sankey Diagram
 Visualize network traffic flow and connections, aiding in understanding data movement.
-![Network Flow Diagram](https://github.com/Nikhil0905/SmartNetIDS/raw/main/assets/Screenshots/NetworkFlow.ppg)
+![Network Flow Diagram](https://github.com/Nikhil0905/SmartNetIDS/raw/main/assets/Screenshots/NetworkFlow.png)
 
 ### Analytics Overview
 An in-depth look at anomaly type breakdowns, helping categorize and understand detected threats.
@@ -59,7 +59,7 @@ See the geographical distribution of suspicious source IPs on a world map.
 
 ### Code Snippet
 A peek into the modular and well-structured codebase.
-![Code Snippet](https://github.com/Nikhil0905/SmartNetIDS/raw/main/assets/Screenshots/Code.ppg)
+![Code Snippet](https://github.com/Nikhil0905/SmartNetIDS/raw/main/assets/Screenshots/Code.png)
 
 ---
 
@@ -164,13 +164,6 @@ You can run SmartNetIDS in Docker for easy deployment. The container supports bo
 
 ```bash
 docker build -t smartnetids .
-```
-
-### 2. Run the Streamlit Dashboard (default)
-
-```bash
-docker run -p 8501:8501 smartnetids
-```
 
 ### 3. Run the Flask Alert API
 

@@ -42,24 +42,24 @@ SmartNetIDS features a dynamic Lottie animation logo that displays in the dashbo
 Here's a glimpse of SmartNetIDS in action. All screenshots are available at: [https://github.com/Nikhil0905/SmartNetIDS/tree/main/assets/Screenshots](https://github.com/Nikhil0905/SmartNetIDS/tree/main/assets/Screenshots)
 
 ### Dashboard Home
-The main dashboard providing an overview of anomaly statistics and recent alerts.
-![Dashboard Home](https://github.com/Nikhil0905/SmartNetIDS/blob/main/assets/Screenshots/home.png?raw=true)
+The main dashboard provides an overview of anomaly statistics and recent alerts.
+![Dashboard Home](https://github.com/Nikhil0905/SmartNetIDS/raw/main/assets/Screenshots/home.png)
 
 ### Network Flow Sankey Diagram
 Visualize network traffic flow and connections, aiding in understanding data movement.
-![Network Flow Diagram](https://github.com/Nikhil0905/SmartNetIDS/blob/main/assets/Screenshots/NetworkFlow.jpg?raw=true)
+![Network Flow Diagram](https://github.com/Nikhil0905/SmartNetIDS/raw/main/assets/Screenshots/NetworkFlow.jpg)
 
 ### Analytics Overview
 An in-depth look at anomaly type breakdowns, helping categorize and understand detected threats.
-![Analytics Overview](https://github.com/Nikhil0905/SmartNetIDS/blob/main/assets/Screenshots/Analytics_1st.png?raw=true)
+![Analytics Overview](https://github.com/Nikhil0905/SmartNetIDS/raw/main/assets/Screenshots/Analytics_1st.png)
 
 ### Source IP Geolocation Map
 See the geographical distribution of suspicious source IPs on a world map.
-![IP Geolocation Map](https://github.com/Nikhil0905/SmartNetIDS/blob/main/assets/Screenshots/IP_geoLocation.png?raw=true)
+![IP Geolocation Map](https://github.com/Nikhil0905/SmartNetIDS/raw/main/assets/Screenshots/IP_geoLocation.png)
 
 ### Code Snippet
 A peek into the modular and well-structured codebase.
-![Code Snippet](https://github.com/Nikhil0905/SmartNetIDS/blob/main/assets/Screenshots/Code.jpg?raw=true)
+![Code Snippet](https://github.com/Nikhil0905/SmartNetIDS/raw/main/assets/Screenshots/Code.jpg)
 
 ---
 
@@ -164,3 +164,27 @@ You can run SmartNetIDS in Docker for easy deployment. The container supports bo
 
 ```bash
 docker build -t smartnetids .
+```
+
+### 2. Run the Streamlit Dashboard (default)
+
+```bash
+docker run -p 8501:8501 smartnetids
+```
+
+### 3. Run the Flask Alert API
+
+```bash
+docker run -e SERVICE=api -p 5001:5001 smartnetids
+```
+
+- The dashboard will be available at http://localhost:8501
+- The API will be available at http://localhost:5001
+
+You can mount your data directory for persistence:
+
+```bash
+docker run -p 8501:8501 -v $PWD/data:/app/data smartnetids
+```
+
+--- 

@@ -164,6 +164,13 @@ You can run SmartNetIDS in Docker for easy deployment. The container supports bo
 
 ```bash
 docker build -t smartnetids .
+```
+
+### 2. Run the Streamlit Dashboard (default)
+
+```bash
+docker run -p 8501:8501 smartnetids
+```
 
 ### 3. Run the Flask Alert API
 

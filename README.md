@@ -1,6 +1,11 @@
 # SmartNetIDS
 
-A lightweight, modular, and intelligent Network Intrusion Detection System (NIDS) using machine learning. Designed for academic and research use, SmartNetIDS demonstrates real-time anomaly detection in network traffic with a focus on modularity, interpretability, and legal compliance.
+<div align="center">
+  <img src="assets/logo.json" alt="SmartNetIDS Logo" width="120" height="120">
+  <h3>A lightweight, modular, and intelligent Network Intrusion Detection System (NIDS) using machine learning</h3>
+</div>
+
+Designed for academic and research use, SmartNetIDS demonstrates real-time anomaly detection in network traffic with a focus on modularity, interpretability, and legal compliance.
 
 ## Features
 - Real-time packet sniffing (Scapy)
@@ -80,6 +85,9 @@ A lightweight, modular, and intelligent Network Intrusion Detection System (NIDS
 ---
 
 ## Troubleshooting & FAQ
+
+**Q: The dashboard asks for a password. How do I set it?**
+A: Password authentication has been removed for ease of use. No password is required.
 
 **Q: The REST API returns 401 Unauthorized.**
 A: Pass your API key as a query parameter (`?key=...`) or `X-API-KEY` header. Set `SMARTNETIDS_API_KEY` in your environment.

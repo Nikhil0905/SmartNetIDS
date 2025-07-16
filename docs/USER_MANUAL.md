@@ -1,8 +1,9 @@
 # SmartNetIDS User Manual
 
 <div align="center">
-  <img src="../assets/logo.json" alt="SmartNetIDS Logo" width="100" height="100">
+  <h1>🛡️ SmartNetIDS</h1>
   <h3>Network Intrusion Detection System</h3>
+  <p><em>User Manual & Documentation</em></p>
 </div>
 
 ## Overview

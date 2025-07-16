@@ -1,5 +1,10 @@
 # SmartNetIDS User Manual
 
+<div align="center">
+  <img src="../assets/logo.json" alt="SmartNetIDS Logo" width="100" height="100">
+  <h3>Network Intrusion Detection System</h3>
+</div>
+
 ## Overview
 SmartNetIDS is a modular, research-grade Network Intrusion Detection System (NIDS) that uses machine learning and rule-based logic to detect network anomalies in real time. It features a modern web dashboard, advanced analytics, and integration with SIEMs and APIs.
 

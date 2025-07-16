@@ -1,11 +1,21 @@
 # SmartNetIDS
 
 <div align="center">
-  <img src="assets/logo.json" alt="SmartNetIDS Logo" width="120" height="120">
+  <h1>🛡️ SmartNetIDS</h1>
   <h3>A lightweight, modular, and intelligent Network Intrusion Detection System (NIDS) using machine learning</h3>
+  <p><em>Real-time anomaly detection with ML-powered insights</em></p>
 </div>
 
 Designed for academic and research use, SmartNetIDS demonstrates real-time anomaly detection in network traffic with a focus on modularity, interpretability, and legal compliance.
+
+## 🎨 Project Logo
+
+SmartNetIDS features a dynamic Lottie animation logo that displays in the dashboard. The logo is stored locally as `assets/logo.json` and includes:
+- **Animated cybersecurity icon** in the Streamlit dashboard
+- **Fallback shield emoji** (🛡️) if animation fails to load
+- **Consistent branding** across all project components
+
+> **Note:** The logo appears as an animated icon in the dashboard interface, not as a static image in documentation.
 
 ## Features
 - Real-time packet sniffing (Scapy)

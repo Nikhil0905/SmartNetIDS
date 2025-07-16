@@ -81,9 +81,6 @@ A lightweight, modular, and intelligent Network Intrusion Detection System (NIDS
 
 ## Troubleshooting & FAQ
 
-**Q: The dashboard asks for a password. How do I set it?**
-A: Password authentication has been removed for ease of use. No password is required.
-
 **Q: The REST API returns 401 Unauthorized.**
 A: Pass your API key as a query parameter (`?key=...`) or `X-API-KEY` header. Set `SMARTNETIDS_API_KEY` in your environment.
 

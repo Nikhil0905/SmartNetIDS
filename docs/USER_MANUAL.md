@@ -61,8 +61,6 @@ SmartNetIDS is a modular, research-grade Network Intrusion Detection System (NID
 - **Session/Flow Analysis:** Top source/destination IPs and flows.
 - **Export:** Download recent alerts as CSV/JSON for SIEM integration.
 
-> _[Update screenshots to reflect the latest UI. Placeholder: "Screenshots coming soon."]_ 
-
 ---
 
 ## Model Management

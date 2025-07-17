@@ -125,12 +125,6 @@ A peek into the modular and well-structured codebase.
 **Q: The REST API returns 401 Unauthorized.**
 A: Pass your API key as a query parameter (`?key=...`) or `X-API-KEY` header. Set `SMARTNETIDS_API_KEY` in your environment.
 
-**Q: The geolocation map disappears when changing color options.**
-A: Click "Show Geolocation Map" again if needed. The map now persists after color changes.
-
-**Q: Protocol coloring does not work.**
-A: Ensure your alert logs contain protocol numbers (6 for TCP, 17 for UDP, etc.).
-
 **Q: Tests fail with ModuleNotFoundError: No module named 'src'.**
 A: Run tests with `PYTHONPATH=./ pytest tests/`.
 
